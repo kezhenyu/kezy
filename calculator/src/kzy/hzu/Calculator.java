@@ -36,7 +36,7 @@ public class Calculator extends Frame
 	 *@return void 
 	 */
 	public void launchFrame()
-	{
+	{		
 		Panel _Panel = new Panel();
 		mTextField = new JTextField(20);
 		Button[] _Button=new Button[16];
@@ -69,6 +69,7 @@ public class Calculator extends Frame
 			_Panel.add(_Button[a[i]]);
 		}
 		add(mTextField,BorderLayout.NORTH);
+		
 		add(_Panel,BorderLayout.CENTER);
 		
 		//Ìí¼Ó´°¿Ú¼àÌýÆ÷
